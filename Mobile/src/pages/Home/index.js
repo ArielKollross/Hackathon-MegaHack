@@ -3,6 +3,7 @@ import { View, FlatList, Text } from 'react-native'
 
 import style from './styles'
 
+
 export default function HomePage() {
     return (
         <View style={style.container}>
@@ -12,7 +13,7 @@ export default function HomePage() {
                     <Text style={style.cartTitle}>Carinho de Compra</Text>
 
                       <FlatList 
-                        data={[1,2,3,4,5,6,7,8,9,10,11,12]}
+                        data={[1,2,3,4,5,6,7,8,9,10,11,12,13,14]}
                         keyExtractor={itens => String(itens)}
                         renderItem={() => (
                             <View style={style.itensSelect}> 
@@ -32,6 +33,7 @@ export default function HomePage() {
                     
                 </View>
             </View>
+
         </View>
     )
 }
