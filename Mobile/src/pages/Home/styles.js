@@ -6,26 +6,35 @@ export default StyleSheet.create({
         flex: 1,
         paddingHorizontal: 24,
         paddingTop: Constants.statusBarHeight + 20,
+        backgroundColor: '#111111',
     },
 
-    shoppingCart: {    },
-    cartTitle: {marginTop: 30}, //carrinho de compra
+    shoppingCart: {   },
+    cartTitle: {//carrinho de compra
+        marginTop: 30,
+        marginBottom: 4,
+        fontSize: 18,
+        color: '#FFF',
+        fontWeight: "bold",
+    }, 
     itensSelect: {
         marginTop: 0,
         padding: 6,
         marginBottom: 3,
-        backgroundColor: '#FFF'
+        backgroundColor: '#303030'
     },
     itensSelectTitle: {
         fontSize: 14,
-        color: '#41414d',
+        color: '#FFF',
         fontWeight: "bold",
     },
     itensSelectProduct: {
-        fontSize: 12,
-        color: '#737380',
         fontWeight: "bold",
         flexDirection: 'row',
         justifyContent: 'space-between'
+    },
+    itensSelectProductText: {
+        color: '#FFF',
+        fontSize: 12,
     }
 })

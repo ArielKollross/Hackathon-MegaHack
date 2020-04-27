@@ -21,8 +21,8 @@ export default function HomePage() {
                             <Text style={style.itensSelectTitle}>Item 1</Text>
                             
                             <View style={style.itensSelectProduct}> 
-                             <Text>Manga Naruto</Text> 
-                             <Text>R$ 9,90</Text>
+                             <Text style={style.itensSelectProductText}>Manga Naruto</Text> 
+                             <Text style={style.itensSelectProductText}>R$ 9,90</Text>
                             </View>
         
     
