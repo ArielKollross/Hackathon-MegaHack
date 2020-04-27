@@ -8,6 +8,7 @@ const Tab = createMaterialBottomTabNavigator()
 
 import HomePage from './pages/Home'
 import SalesPage from './pages/Sales'
+import QRCode from './pages/QRcode'
 
 
 export default function Routes() {
@@ -20,6 +21,7 @@ export default function Routes() {
         <NavigationContainer>
         <Tab.Navigator>
             <Tab.Screen name="Home" component={HomePage} />
+            <Tab.Screen name="Buy" component={QRCode} />
             <Tab.Screen name="Sales" component={SalesPage} />
         </Tab.Navigator>
         </NavigationContainer>
